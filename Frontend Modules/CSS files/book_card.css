@@ -1,0 +1,20 @@
+.books-container{
+    width: 100%;
+    padding:10px;
+    background-color: brown;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+   
+}
+.book-item{
+    border: 2px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    background: wheat;
+}
+
+#spans{
+    display: flex;
+    justify-content: space-between;
+}

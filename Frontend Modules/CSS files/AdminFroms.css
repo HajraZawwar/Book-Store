@@ -1,0 +1,30 @@
+.form-contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-form{
+    width: 80%;
+}
+.form-item{
+    width: 100%;
+    padding:3px;
+
+}
+
+.form-item input,textarea,select{
+    padding: 8px;
+    outline: none;
+    border: none;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    background: #8a92b4;
+}
+
+.form-item .submission{
+    margin-top: 20px;
+    background: #211d3d;
+    color: white;
+}

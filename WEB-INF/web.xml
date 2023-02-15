@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+<servlet>
+
+<servlet-name> First </servlet-name>
+<servlet-class>SignUp</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>  First  </servlet-name>
+
+<url-pattern>  /SignUpPage</url-pattern>
+
+</servlet-mapping>
+
+
+<servlet>
+
+<servlet-name> Login </servlet-name>
+<servlet-class>LogIn</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>  Login  </servlet-name>
+<url-pattern>  </url-pattern>
+<url-pattern>  /logInPage</url-pattern>
+
+</servlet-mapping>
+
+
+<servlet>
+<servlet-name> HomePage </servlet-name>
+<servlet-class>home</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>  HomePage  </servlet-name>
+<url-pattern>  /home</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name> AddAdmin </servlet-name>
+<servlet-class>CreateAdmin</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>  AddAdmin </servlet-name>
+<url-pattern>  /addAdmin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name> AddBook </servlet-name>
+<servlet-class>AddBooks</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>  AddBook</servlet-name>
+<url-pattern>  /addBook</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name> RemoveBook </servlet-name>
+<servlet-class>RemoveBooks</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>  RemoveBook</servlet-name>
+<url-pattern>  /RemoveBook</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name> testing </servlet-name>
+<servlet-class>testing</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>  testing</servlet-name>
+<url-pattern>  /test</url-pattern>
+</servlet-mapping>
+
+</web-app>

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Baloo+Bhaijaan+2:wght@600&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.text-middle {
+    text-align: center;
+}
+
+.outer-div {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+        url("../../../Book Store Project/Frontend Modules/images/3d-rendering-graduation-cap-magnifying-glass-bulb-with-books-realistic-3d-shapes-education-online-concept.jpg");
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-holder {
+    background-color: white;
+    padding: 10px;
+    min-height: 300px;
+    border-radius: 6px;
+    max-width: 327px;
+
+}
+
+
+
+/*-----------   CSS FOR FORMS   ---------------------------*/
+.form-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+
+input {
+    width: 315px;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.submission {
+    background-color: brown;
+    border: none;
+    padding: 5px;
+    width: 325px;
+    color: white;
+    margin-bottom: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+.align {
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+}
+
+.success-message {
+    color: green;
+}
+
+.pagelink {
+    color: crimson;
+}

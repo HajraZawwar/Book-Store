@@ -1,0 +1,40 @@
+.box-container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.box {
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 193px;
+    width: 371px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.yellow {
+    background-color: #0a0505d1;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.yellow:hover {
+    background-color: #040202d1;
+    transform: translateY(-7px);
+}
+
+.green {
+    background-color: #CCFFCC;
+}
+
+@media (max-width: 767px) {
+    .box {
+        width: 90%;
+    }
+}

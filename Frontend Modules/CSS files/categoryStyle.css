@@ -1,0 +1,30 @@
+.category-item {
+    background-color: #a5a598;
+    margin: 6px;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 6px;
+    width: 169px;
+    padding: 0px 10px;
+    align-items: center;
+
+}
+.category-item img{
+    width: 20px;
+    height: 20px;
+}
+.category-item h3{
+    font-size: 20px;
+}
+.wideinput{
+    width: 65%;
+}
+
+.flex-type {
+    display: flex;
+    justify-content: flex-start;
+}
+.category-container{
+    margin: 10px 0px;
+}

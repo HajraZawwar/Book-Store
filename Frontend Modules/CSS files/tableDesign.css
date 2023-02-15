@@ -1,0 +1,28 @@
+/*----------- FOR TABLE DESIGN  -------------------------*/
+th,
+td {
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr{
+    outline: none;
+    border:none;
+    border-bottom: 2px solid black;
+}
+
+.order-status{
+    display: inline;
+    padding: 5px;
+    /* padding: 0 1px; */
+    background-color: brown;
+    font-size: 15px;
+    border-radius: 5px;
+}
